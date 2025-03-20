@@ -1,0 +1,33 @@
+{
+  "name": "bonedive-game",
+  "version": "1.0.0",
+  "description": "A 3D underwater exploration game with realistic marine life simulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astral-duck/bonedive-game.git"
+  },
+  "keywords": [
+    "game",
+    "3D",
+    "underwater",
+    "simulation",
+    "marine-life",
+    "threejs",
+    "cannonjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astral-duck/bonedive-game/issues"
+  },
+  "homepage": "https://github.com/astral-duck/bonedive-game#readme",
+  "dependencies": {
+    "three": "^0.160.0",
+    "cannon-es": "^0.20.0"
+  }
+}
